@@ -1,0 +1,118 @@
+{
+    "config": {
+        "adapter": [
+            "xhr",
+            "http",
+            "fetch"
+        ],
+        "data": "{\"name\":\"hvhbvb\",\"guardian\":\"gfgewfi\",\"mobile\":\"999999999\",\"preparation\":\"jbuodhuohw\",\"className\":\"12th Pass\",\"coaching\":\"12th\",\"state\":\"hduh\",\"city\":\"iehfueh\",\"monthlyRent\":0,\"admissionDate\":\"Thu Dec 05 2024 14:28:01 GMT+0530\"}",
+        "env": {
+            "Blob": [Function Blob
+            ],
+            "FormData": [Function FormData
+            ]
+        },
+        "headers": [Object
+        ],
+        "maxBodyLength": -1,
+        "maxContentLength": -1,
+        "method": "post",
+        "timeout": 0,
+        "transformRequest": [
+            [Function transformRequest
+            ]
+        ],
+        "transformResponse": [
+            [Function transformResponse
+            ]
+        ],
+        "transitional": {
+            "clarifyTimeoutError": false,
+            "forcedJSONParsing": true,
+            "silentJSONParsing": true
+        },
+        "url": "http://10.0.2.2:8080/api/add_student",
+        "validateStatus": [Function validateStatus
+        ],
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN"
+    },
+    "data": {
+        "message": "Student added successfully",
+        "status": true
+    },
+    "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "54",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 05 Dec 2024 09:00:20 GMT",
+        "etag": "W/\"36-8JdNpQS30iOh7AAR79iolhWE8b0\"",
+        "keep-alive": "timeout=5",
+        "x-powered-by": "Express"
+    },
+    "request": {
+        "DONE": 4,
+        "HEADERS_RECEIVED": 2,
+        "LOADING": 3,
+        "OPENED": 1,
+        "UNSENT": 0,
+        "_aborted": false,
+        "_cachedResponse": undefined,
+        "_hasError": false,
+        "_headers": {
+            "accept": "application/json, text/plain, */*",
+            "content-type": "application/json"
+        },
+        "_incrementalEvents": false,
+        "_lowerCaseResponseHeaders": {
+            "access-control-allow-origin": "*",
+            "connection": "keep-alive",
+            "content-length": "54",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Thu, 05 Dec 2024 09:00:20 GMT",
+            "etag": "W/\"36-8JdNpQS30iOh7AAR79iolhWE8b0\"",
+            "keep-alive": "timeout=5",
+            "x-powered-by": "Express"
+        },
+        "_method": "POST",
+        "_perfKey": "network_XMLHttpRequest_http://10.0.2.2:8080/api/add_student",
+        "_performanceLogger": {
+            "_closed": false,
+            "_extras": [Object
+            ],
+            "_pointExtras": [Object
+            ],
+            "_points": [Object
+            ],
+            "_timespans": [Object
+            ]
+        },
+        "_requestId": null,
+        "_response": "{\"status\":true,\"message\":\"Student added successfully\"}",
+        "_responseType": "",
+        "_sent": true,
+        "_subscriptions": [],
+        "_timedOut": false,
+        "_trackingName": "unknown",
+        "_url": "http://10.0.2.2:8080/api/add_student",
+        "readyState": 4,
+        "responseHeaders": {
+            "Access-Control-Allow-Origin": "*",
+            "Connection": "keep-alive",
+            "Content-Length": "54",
+            "Content-Type": "application/json; charset=utf-8",
+            "Date": "Thu, 05 Dec 2024 09:00:20 GMT",
+            "ETag": "W/\"36-8JdNpQS30iOh7AAR79iolhWE8b0\"",
+            "Keep-Alive": "timeout=5",
+            "X-Powered-By": "Express"
+        },
+        "responseURL": "http://10.0.2.2:8080/api/add_student",
+        "status": 201,
+        "timeout": 0,
+        "upload": {},
+        "withCredentials": true
+    },
+    "status": 201,
+    "statusText": undefined
+}
